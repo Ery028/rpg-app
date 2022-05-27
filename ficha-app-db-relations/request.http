@@ -1,0 +1,33 @@
+### Create Ficha
+
+POST http://localhost:3000/foods
+Content-Type: application/json
+
+{
+    "name": "Torta de Frango",
+    "personagem": 12.5,
+    "category_id": 3
+}
+
+### Read Foods
+
+GET http://localhost:3000/foods
+
+### Update Ficha
+
+PUT http://localhost:3000/foods/3
+Content-Type: application/json
+
+{
+    "name": "Torta de Frango",
+    "personagem": 14,
+    "category_id": 3
+}
+
+### Delete Ficha
+
+DELETE http://localhost:3000/foods/4
+
+### Read Categories
+
+GET http://localhost:3000/categories
